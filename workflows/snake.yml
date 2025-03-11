@@ -1,6 +1,6 @@
 name: Contribution Snake Game
 
-on:
+on:                   #trigger workflow
   schedule:
     - cron: "0 0 * * *" # Runs every day at midnight
   workflow_dispatch: # Allows manual triggering
